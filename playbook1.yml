@@ -4,7 +4,7 @@
 
   tasks:
 
-    - name: download tomcat
+    - name: download tomcat in node
       action: get_url url=https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.56/bin/apache-tomcat-9.0.56.zip dest=/mnt
 
     - name: install jdk
