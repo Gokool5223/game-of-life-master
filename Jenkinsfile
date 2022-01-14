@@ -21,7 +21,7 @@ pipeline{
             }
         stage('continuous Deliver on prod') {
             steps {
-                sh 'ansible-playbook playbook1.yml '
+                sh 'ansible-playbook playbook1.yml -b '
             }
         }
     }
